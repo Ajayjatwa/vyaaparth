@@ -1,0 +1,22 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.card-body{
+  height: 30px;
+  width: 100%;
+  background-color: rgb(58, 6, 6);
+  color: white;
+}
+
+.fa fa-envelope{
+  padding-left: 30%;
+  color: aliceblue;
+  size: 40px;
+  float: left;
+}
+.logn{
+  float: right;
+  color: aliceblue;
+}
