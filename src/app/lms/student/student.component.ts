@@ -12,10 +12,13 @@ export class StudentComponent implements OnInit {
   ngOnInit(): void {
   }
   productselect: boolean = false;
-
+  selectedProduct:string="";
+  product: string="";
 
   onClickMe(){
-    this.productselect = false;
+    this.productselect = true;
+
+
 
   }
 

@@ -20,6 +20,9 @@ import { CardComponent } from './lms/card/card.component';
 import { Card2Component } from './lms/card2/card2.component';
 import { UserService } from './user.service';
 import { VyaaparComponent } from './vyaapar/vyaapar.component';
+import { ContentComponent } from './lms/content/content.component';
+import { NodeJsComponent } from './content-list/node-js/node-js.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 @NgModule({
   declarations: [
@@ -36,14 +39,17 @@ import { VyaaparComponent } from './vyaapar/vyaapar.component';
     CoursesComponent,
     CardComponent,
     Card2Component,
-    VyaaparComponent
+    VyaaparComponent,
+    ContentComponent,
+    NodeJsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
         HttpClientModule,
         FormsModule,
-        ReactiveFormsModule
+        ReactiveFormsModule,
+        CarouselModule
 
   ],
   providers: [UserService],

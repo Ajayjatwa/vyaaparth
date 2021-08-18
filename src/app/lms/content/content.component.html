@@ -1,0 +1,201 @@
+<div class="card text-center">
+  <h2 class="title" >CONTANT</h2>
+</div>
+<div class="input-group mb-3">
+  <span class="input-group-text" id="fa fa-search"></span>
+  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+
+<div class="container" *ngIf="hidetabe"><br><br>
+  <h3 class="title">
+    Course Maching you search
+  </h3>
+  <br>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="../../../assets/book1.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Node JS</h5>
+        <p class="card-text"><a routerLinkActive ="active" routerLink = "node-js"> card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="../../../assets/book2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Computer hardware</h5>
+        <p class="card-text"><a href=""> supporting text below as a natural lead-in to additional content. This content is a little bit longer.</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="../../../assets/book3.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Node js</h5>
+        <p class="card-text"><a href="#"> text below as a natural lead-in to additional content.</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container"><br><br>
+  <h3 class="title">
+    Course Maching you search
+  </h3><br><br>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="../../../assets/book1.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Node JS</h5>
+        <p class="card-text"><a href=""> card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="../../../assets/book2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Computer hardware</h5>
+        <p class="card-text"><a href=""> supporting text below as a natural lead-in to additional content. This content is a little bit longer.</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="../../../assets/book3.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Node js</h5>
+        <p class="card-text"><a href="#"> text below as a natural lead-in to additional content.</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container"><br><br>
+  <h3 class="title">
+    Course Maching you search
+  </h3><br><br>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="../../../assets/book1.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Node JS</h5>
+        <p class="card-text"><a href=""> card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="../../../assets/book2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Computer hardware</h5>
+        <p class="card-text"><a href=""> supporting text below as a natural lead-in to additional content. This content is a little bit longer.</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="../../../assets/book3.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Node js</h5>
+        <p class="card-text"><a href="#"> text below as a natural lead-in to additional content.</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="text-decoration-none" *ngIf="showtab">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="../../../assets/student1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Digital Marketing</h5>
+          <p class="card-text"><a href="#"> supporting text below as a natural lead-in to additional content. This content is a little bit longer.</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="../../../assets/student2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Science</h5>
+          <p class="card-text"><a href="#">  card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="../../../assets/student3.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">javascript</h5>
+          <p class="card-text"><a href="#">  This is a longer card with natural lead-in to additional content.</a></p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</div>
+<div (click) ="morechange()">
+  <button class="btn btn-success">Show more</button>
+  </div>
+
+<!-- bhngbv -->
+<div *ngIf ="div1">
+  <div class="card mb-3">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="../../../assets/book1.jpeg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Digital Marketing</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div *ngIf ="div2">
+  <div class="card mb-3">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="../../../assets/book2.jpg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">javascript</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div *ngIf ="div3">
+  <div class="card mb-3">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="../../../assets/book3.jpeg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Node js</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br><br><br>
+<button class="btn btn-success" (click) ="div1Function()">tab</button>
+<button class="btn btn-success align-content-end" (click) ="div2Function()">tab</button>
+<button class="btn btn-success" (click) ="div3Function()">tab</button>

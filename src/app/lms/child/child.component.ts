@@ -13,16 +13,17 @@ export class ChildComponent implements OnInit {
   }
 
  @Input()productselect: boolean = false;
-  itemname:String="";
+ @Input()selectedProduct:string="";
+
 
   // onAddProduct(){
   //   this.productselect;
 
   // }
 
-  onSelectProduct(itemname:String){
-    this.productselect = true;
-    this.itemname=itemname;
-  }
+  // onSelectProduct(itemname:String){
+  //   this.productselect = true;
+
+  // }
 
 }
